@@ -1,71 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Desenvolvedor Júnior</title>
-   
-    
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #3eb9df;
-        }
-        header {
-            background-color: #10dbe9;
-            color: rgb(8, 105, 112);
-            text-align: center;
-            padding: 10px;
-        }
-        .container {
-            max-width: 960px;
-            margin: auto;
-            padding: 20px;
-        }
-        .project {
-            border: 1px solid #01f7ff;
-            padding: 10px;
-            margin: 10px;
-            background-color: rgb(51, 194, 204);
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Meu Portfólio</h1>
-        <p>Desenvolvedor Web Full-Stack</p>
-        <audio controls autoplay loop>
-            <source src="/audio/cdex1live-linkin-park-in-the-end-cdex1-bootleg-df628626.mp3" type="audio/mpeg">
-            Seu navegador não suporta a reprodução de áudio.
-        </audio>
-    </header>
-    <div class="container">
-        <h2>Sobre Mim</h2>
-        <p>Bruno Isnard, de 30 anos, Morador de Aguas Compridas Olinda (PE), Passou mais de 7 anos trabalhando como Designer Grafico. Durante a algun tempo em 2015, se viu perdido pela falta de trabalho. Foi quando decidiu mudar de carreira. Em fevereiro de 2017,se Formou em Redes de Computador, Hoje Sou aluno da Uninassau é aluno do curso de Fullstack do Senac/PE Porto Digital.
+#HTML
 
-            Feliz com o meu Desenvolvimento, Bruno, que começou a Trabalha como TI-SUPORTE na Ferreira Costa Em 2022.</p>
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript (jQuery)</li>
-            <li>Responsive Design</li>
-            <li>Version Control (Git)</li>
-        </ul>
-        <h2>Projetos Recentes</h2>
-        <div class="project">
-            <h3>Projeto 1: Site de Portfólio</h3>
-            <p>Criei um site de portfólio para mostrar meus projetos e habilidades como desenvolvedor.</p>
-            <a a href="/skills.html"> <button>Conheca Minhas Skills</button> </a>
-        </div>
-        <div class="project">
-            <h3>Projeto 2: Blog Pessoal</h3>
-            <p>Desenvolvi um blog pessoal usando HTML, CSS e JavaScript para compartilhar meus conhecimentos e experiências.</p>
-        </div>
-        <h2>Contato</h2>
-        <p>Se você está interessado em colaborar ou tem alguma pergunta, sinta-se à vontade para entrar em contato comigo através do meu contato profissional: <a href="https://www.linkedin.com/in/bruno-isnard-84b1a4120/"><button>Linkedin</button></a></p>
-    </div>
-</body>
-</html>
+<h1> O que é seâmantica HTML </h1>
+<h4>A semântica HTML envolve dar significado aos elementos HTML de acordo com a estrutura e a função do conteúdo em uma página da web. Em vez de usar elementos apenas com base na aparência visual, a semântica HTML concentra-se em usar elementos que refletem o significado real do conteúdo, efetivamente a acessibilidade, a compreensão e indexação por parte dos interruptores de busca. Aqui estão alguns conceitos-chave sobre semântica HTML: 1. **Elementos Semânticos:** São elementos HTML que carregam significado intrínseco. Eles descrevem o tipo de conteúdo que eles contêm e podem ser interpretados de maneira consistente por navegadores, botões de busca e leitores de tela. Exemplos de elementos semânticos incluem header,  nav,  main ,article, section, aside, footer, entre outros<h4>
+<img src="https://danieldigital.com.br/wp-content/uploads/2019/06/html5-tags-semanticas-estrutura-site-seo.jpg" width="400px">
+<br>
+<h1>O que são tags? </h1>
+<h4>
+As tags HTML são elementos que você usa para estruturar e marcar o conteúdo em uma página da web. Elas indicam ao navegador como exibir o conteúdo e também podem ser usadas para aplicar estilos e funcionalidades. Aqui estão alguns exemplos de tags HTML comuns: h1, a h6, - Títulos:Essas tags são usadas para criar títulos em diferentes níveis de importância. h1, é o mais importante e h6,  é o menos importante. html h1, Título Principal h1, h2, Subtítulo h2,  p, Parágrafo </h4>
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Title_and_heading_tag-html_tags.PNG" width="400px">
+<br>
+<h1>O que são classes (HTML)
+<h4>O atributo global class é uma lista das classes de um elemento, separadas por espaços. Classes permitem que CSS e Javascript selecionem e acessem elementos específicos através dos seletores de classe </h4>
+<img src="https://i.stack.imgur.com/rxPEp.png" width="400px">
+<br>
+<h1>O que são id (HTML)</h1>
+<h4>No HTML, o atributo "id" é usado para atribuir uma identificação única a um elemento específico na página da web. Cada elemento com um "id" deve ter um valor exclusivo, o que significa que não pode haver dois elementos diferentes com o mesmo "id" na mesma página. O "id" é uma ferramenta importante para seleção e identificação específica de elementos para estilos CSS, comportamento JavaScript e outras manipulações. Aqui estão algumas características importantes do atributo "id" no HTML: 1. Unicidade:O "id" deve ser único dentro do documento HTML. Ele serve como uma identificação exclusiva para o elemento específico. Não é recomendado duplicar IDs em diferentes partes da página.</h4>
+<img src="https://user.oc-static.com/upload/2018/12/10/15444554018813_bbbbbbbbb.PNG" width="400px">
+<br>
+<h1>O que é Section (HTML)</h1>
+    
+<h4>Em HTML, uma tag section é um elemento semântico usado para dividir e estruturar o conteúdo de uma página da web em seções distintas ou grupos de conteúdo relacionado. A tag section é usada para criar uma divisão lógica no conteúdo, facilitando a organização e a compreensão do mesmo, tanto para os desenvolvedores quanto para os usuários. Aqui estão alguns pontos-chave sobre a tag section: 1. Divisão Semântica: A tag section é usada para criar seções ou reflexões no conteúdo da página. Cada seção representa uma parte distinta do conteúdo, como uma introdução, um artigo, um bloco de informações relacionadas, etc.</h4>
+<img src="https://drek4537l1klr.cloudfront.net/mcfedries/Figures/11_02.png" width="400px">
+
+
+``<h3>kjhf</h3>``
+   
+
